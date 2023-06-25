@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Search</title>
+  <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+          <h2>Find a Perfect Candidate</h2>
+        </div>
+        <div class="image">
+            <img src="search.jpg" alt="Image">
+        </div>
+      </div>
+
+    <div class="search-container">
+        <select id="location-select">
+          <option value="">All Locations</option>
+          <option value="New York">Coimbatore</option>
+          <option value="London">Chennai</option>
+          <option value="Tokyo">Trichy</option>
+        </select>
+        <select id="job-role-select">
+          <option value="">All Job Roles</option>
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="Data Analyst">Data Analyst</option>
+          <option value="UI/UX Designer">UI/UX Designer</option>
+        </select>
+        <button onclick="searchCandidates()">Search</button>
+      </div>
+      
+
+  <div id="results-container">
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>

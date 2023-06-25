@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talentpro</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="home.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="logo1.PNG" style="height: 30px;width: 150px;" alt="Landio logo">
+      </a>
+
+      <button class="menu-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link">Features</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div class="header-actions">
+          <a onclick="goToLoginPage()" class="header-action-link">Log in</a>
+
+          <a onclick="goToLoginPage()" class="header-action-link">Register</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - HOME
+      -->
+
+      <section class="hero" id="hero">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Hire Smarter & Scale Faster</h1>
+
+            <p class="hero-text">
+                Talentpro connects the most extraordinary go-to-market talent with the most innovative companies in the world.
+            </p>
+
+            <p class="form-text">
+                Our goal will always be simple: we will listen to your story, find out what you’re looking for, and match you with people that fit your dreams and make that story even better.
+            </p>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="home.jpg" alt="Hero image">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <div class="about-icon">
+                <ion-icon name="help"></ion-icon>
+            </div>
+
+            <h2 class="h2 about-title">Why Choose Us ?</h2>
+
+            <p class="about-text">
+                We invest time in comprehending your company's requirements and organizational culture, crafting strategic talent solutions, and navigating change collaboratively. Our consultative approach is highly valued by companies as we genuinely care about the individuals we partner with. Our commitment lies in your long-term success, ensuring that we identify the ideal talent based on both relevant experience and cultural alignment.
+            </p>
+
+            <button class="btn btn-outline">Learn More</button>
+
+          </div>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                    <ion-icon name="search"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Transparency</h3>
+
+                <p class="card-text">
+                    Upholding clear visibility and open communication for candidates and employers throughout the recruitment journey.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                    <ion-icon name="bulb"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Innovation</h3>
+
+                <p class="card-text">
+                    Embracing technological advancements and data-driven insights to optimize recruitment strategies.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Ethics and Integrity</h3>
+
+                <p class="card-text">
+                    Upholding the highest ethical standards and maintaining confidentiality and trust.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                    <ion-icon name="people"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Long-term Partnerships</h3>
+
+                <p class="card-text">
+                    Building lasting relationships based on trust, transparency, and shared success with clients and candidates.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - FEATURES
+      -->
+
+      <section class="features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title">Awesome Features</h2>
+
+          <div class="features-wrapper">
+
+            <figure class="features-banner">
+              <img src="search.jpg" alt="illustration art">
+            </figure>
+
+            <div class="features-content">
+
+              <h3 class="features-content-title">
+                <strong>Executive Search</strong>
+              </h3>
+
+              <p class="features-content-text">
+                Operating across the globe, we work closely with you to ensure successful delivery. We help you find C-suite and senior-level talent and understand the nuances associated with managing the stakeholders of an executive search and selection process. We also collaborate with you on the development of your company’s executive employee value proposition (EVP), gaining a deep understanding of who you are, as well as encapsulating your company’s vision and strategy into the hiring process.
+              </p>
+
+              <div class="btn-group">
+                <button class="btn btn-primary">Read More</button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="features-wrapper">
+
+            <figure class="features-banner">
+              <img src="feature.jpg" alt="illustration art">
+            </figure>
+
+            <div class="features-content">
+
+              <h3 class="features-content-title">
+                <strong>Permanent</strong>
+              </h3>
+
+              <p class="features-content-text">
+                When you need people, you need them now. Whether due to team expansion, staff departures or fast-paced growth, we respond quickly to change within your business and work collaboratively. Diversity is at the forefront of our business and paramount in everything we do, therefore we partner with you to form innovative and diverse teams. Taking a detailed specification of the position, our talent specialists work relentlessly to attract suitable candidates. Utilising extensive local and global networks, they manage the process until the right fit is found.
+              </p>
+
+              <div class="btn-group">
+                <button class="btn btn-primary">Read More</button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - BLOG
+      -->
+
+      <section class="blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Blogs</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="blog1.jpg" style="height: 175px;" alt="Best Traveling Place">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2021-04-10">may 10 2023</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>admin</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">Great Recruitment Strategies That Attract Top Talent</h3>
+
+                <p class="blog-text">
+                    Attracting and retaining top talent is a challenge many businesses face today. If you want your brand to grow and succeed, you need to hire top talent. Your company’s strategies will depend on your size, location, industry, etc. However, certain elements, such as employer branding and making data-driven decisions, are core parts of any great recruitment strategy.                 
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="blog2.jpg" alt="Private Meeting Room">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2021-04-10">april 10 2023</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>admin</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">How To Get Started Hiring An Engineer</h3>
+
+                <p class="blog-text">
+                    As a founder, recruiting and onboarding top technical talent to your team is vital. A great software engineer will help scale your product and ensure the growth of your company. But, you probably don’t have a ton of time and energy to build the perfect hiring process and interview hundreds of candidates.                
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="blog3.jpg" alt="The Best Business Ideas">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2021-04-10">april 2 2023</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>admin</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">How to Be Compliant During the Hiring Process</h3>
+
+                <p class="blog-text">
+                    When designing a great hiring experience, interview timelines and candidate flow are often top-of-mind. But the hiring process itself is full of potential compliance risks – from collecting and storing applicant data to monitoring the hiring process itself.
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - CONTACT
+      -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Contact Us</h2>
+
+          <p class="section-text">
+            Have a question? Connect with us directly using the below form or any of the below information.
+          </p>
+
+          <div class="contact-wrapper">
+
+            <form action="" class="contact-form">
+
+              <div class="wrapper-flex">
+
+                <div class="input-wrapper">
+                  <label for="name">Name*</label>
+
+                  <input type="text" name="name" id="name" required placeholder="Enter Your Name" class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="emai">Email*</label>
+
+                  <input type="text" name="email" id="email" required placeholder="Enter Your Email"
+                    class="input-field">
+                </div>
+
+              </div>
+
+              <label for="message">Message*</label>
+
+              <textarea name="message" id="message" required placeholder="Type Your Message"
+                class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </button>
+
+            </form>
+
+            <ul class="contact-list">
+
+              <li>
+                <a href="mailto:support@website.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>: support@gmail.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="globe-outline"></ion-icon>
+
+                  <span>: www.website.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+0011234567890" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>: (+91) 8278732323</span>
+                </a>
+              </li>
+
+              <li>
+                <div class="contact-link">
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <span>: 9:00 AM - 5:00 PM</span>
+                </div>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>chennai</address>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo-footer.PNG" style="height: 30px;width: 170px;" alt="Landio logo">
+          </a>
+
+          <p class="footer-text">
+            Talentpro connects the most extraordinary go-to-market talent with the most innovative companies in the world.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">OUR LINKS</p>
+            </li>
+
+            <li>
+              <a href="#hero" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#features" class="footer-link">Features</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer-link">Contact Us</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">OTHER LINKS</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Tearms & Conditions</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">SUPPORT</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Developers</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Support</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Customer Service</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Get Started</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Guide</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2023. All Right Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="home.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
